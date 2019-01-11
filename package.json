@@ -1,0 +1,24 @@
+{
+  "name": "cm19_electron",
+  "version": "1.0.0",
+  "description": "my codemash sample",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "build"
+  },
+  "author": "VP",
+  "license": "ISC",
+  "build": {
+    "appId": "cm19_electron",
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  },
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "electron-builder": "^20.38.4",
+    "electron-reload": "^1.4.0"
+  }
+}
